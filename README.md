@@ -29,3 +29,16 @@ column_list
 files_name.xlsx 
 mail@mail.com(whom to send) 
 mail@mail.com(CC)
+
+
+Below are the Arguments for the Sharepoint
+
+ENV=$1  environmenr,\n
+ENV_CLUSTER=$2  cluster,\n
+url=$3 sharepoint site to generate access toke,\n
+client_id - Client ID to generate access token,\n
+client_secret - Client secret to generate access token,\n
+SP_FILE_PATH - URL to the Excel file in sharepoint location,\n
+FILENAME - Name of the target Excel file,\n
+HDFS_FILE_PATH - Base HDFS path under which Excel source files & archived Excel files will be placed,\n
+exit_code=0
